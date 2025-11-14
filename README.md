@@ -20,11 +20,17 @@ Clone the repo and install dependencies:
 git clone https://github.com/BlagoTcherecharov/Loan_approval.git
 ```
 2. Navigate to project folder
-```cd Loan_approval```
+```bash
+cd Loan_approval
+```
 3. Install requirements
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 4. Run app
-```streamlit run app.py```
+```bash 
+streamlit run app.py
+```
 
 ---
 ## Web App

@@ -1,6 +1,7 @@
 # Loan Approval Predictor
 A machine learning web app built with **Streamlit** that predicts whether a loan application
 will be approved based on applicant details such as income and credit score.
+
 ---
 ## Introduction
 This project is designed as an experiment to test and compare different machine learning models for the same

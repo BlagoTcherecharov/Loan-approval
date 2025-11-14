@@ -11,6 +11,7 @@ strengths and weaknesses.
 
 Note: This project serves as a practical demo of deploying ML models with Streamlit, while also highlighting the process of experimenting
 with different approaches to solve the same problem.
+
 ---
 ## Setup
 Clone the repo and install dependencies:
@@ -22,16 +23,19 @@ Clone the repo and install dependencies:
 ```pip install -r requirements.txt```
 4. Run app
 ```streamlit run app.py```
+
 ---
 ## Web App
 Try the live demo here:
 [Loan approval predictor Web app](https://loan-approval-prediction-models.streamlit.app/)
 ---
+
 ## Data
 The dataset used for training and testing can be found here:
 - Original source(Data + Info): [Kaggle loan prediction dataset](https://www.kaggle.com/datasets/mosaadhendam/loan-prediction-dataset)
 - Csv with the data only: [Dataset in github](https://github.com/BlagoTcherecharov/Loan_approval/blob/master/loan_approval_dataset.csv)
 ---
+
 ## Models Tested and Results
 All models are implemented using **scikit-learn**:
 - Random Forest Classifier
@@ -49,6 +53,7 @@ The following table summarizes performance on the loan approval dataset:
 *Note: Precision, Recall, and F1 are macro averages from `classification_report`.*
 
 ---
+
 ## Conclusion
 Based on the comparison table:
 - **Gradient Boosting** delivered the best overall performance.
@@ -62,9 +67,11 @@ Side note:
 Overall, ensemble methods (boosting and random forests) proved more effective than the neural network approach for this dataset,
 but further tuning and larger, more representative data could change the outcome.
 ---
+
 ## Possible/Future Work
 - **Model variety**: Experiment with additional algorithms such as XGBoost, LightGBM, or CatBoost for comparison.
 - **Experiment tracking with MLflow**: Log metrics, parameters, and models to compare experiments and manage versions.
 ---
+
 ## License
 This project is licensed under the MIT License — see the [LICENSE](https://github.com/BlagoTcherecharov/Loan_approval/blob/master/LICENSE) file for details.
